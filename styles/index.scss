@@ -12,16 +12,18 @@ html {
 }
 
 .page {
+  display: flex;
   width: 1440px;
-  height: 1000px;
+  height: 100vh;
   background-color: $page-background-color;
   margin: auto;
-  padding: 115px 132px;
 }
 
 .cards {
   display: flex;
   justify-content: space-between;
+  width: 1176px;
+  margin: auto;
 }
 
 .price-card {
