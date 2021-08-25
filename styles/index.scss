@@ -16,12 +16,12 @@ html {
   height: 1000px;
   background-color: $page-background-color;
   margin: auto;
+  padding: 115px 132px;
 }
 
 .cards {
   display: flex;
   justify-content: space-between;
-  padding: 115px 132px;
 }
 
 .price-card {
