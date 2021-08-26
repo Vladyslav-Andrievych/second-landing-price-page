@@ -13,8 +13,8 @@ html {
   display: flex;
   width: 1440px;
   height: 100vh;
-  background-color: #141b1c;
   margin: auto;
+  background-color: #141b1c;
 }
 
 .cards {
@@ -26,23 +26,23 @@ html {
 
 .price-card {
   position: relative;
-  background-color: #334247;
   width: 380px;
   height: 770px;
   overflow: hidden;
+  background-color: #334247;
 }
 .price-card_popular .price-card__badge {
   display: flex;
 }
 .price-card__badge {
   display: none;
+  width: 147px;
+  height: 25px;
   position: absolute;
   top: 31px;
   left: 263px;
-  width: 147px;
-  height: 25px;
-  background-color: #dc3f45;
   transform: rotate(45deg);
+  background-color: #dc3f45;
 }
 .price-card__badge-text {
   font-weight: 700;
@@ -63,19 +63,19 @@ html {
   text-align: center;
 }
 .green-color .price-card__title {
+  width: 100px;
   margin-left: 140px;
   margin-right: 140px;
-  width: 100px;
 }
 .blue-color .price-card__title {
+  width: 163px;
   margin-left: 108px;
   margin-right: 108px;
-  width: 163px;
 }
 .orange-color .price-card__title {
+  width: 176px;
   margin-left: 102px;
   margin-right: 102px;
-  width: 176px;
 }
 .price-card__title-small-text {
   font-weight: 300;
@@ -83,9 +83,9 @@ html {
   line-height: 24px;
 }
 .price-card__price {
+  display: flex;
   height: 105px;
   margin-top: 33px;
-  display: flex;
 }
 .green-color .price-card__price {
   background-color: #5bb189;
@@ -141,14 +141,14 @@ html {
   background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png");
 }
 .price-card__order-btn {
+  width: 154px;
+  height: 40px;
   text-transform: uppercase;
   font-size: 14px;
   line-height: 17px;
-  width: 154px;
-  height: 40px;
   border: none;
-  margin: 39px 113px 40px 112px;
   border-radius: 20px;
+  margin: 39px 113px 40px 112px;
 }
 .green-color .price-card__order-btn {
   background-color: #5bb189;

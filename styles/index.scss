@@ -15,8 +15,8 @@ html {
   display: flex;
   width: 1440px;
   height: 100vh;
-  background-color: $page-background-color;
   margin: auto;
+  background-color: $page-background-color;
 }
 
 .cards {
@@ -28,10 +28,10 @@ html {
 
 .price-card {
   position: relative;
-  background-color: $price-card-background-color;
   width: 380px;
   height: 770px;
   overflow: hidden;
+  background-color: $price-card-background-color;
 
   &_popular {
     .price-card__badge {
@@ -41,13 +41,13 @@ html {
 
   &__badge {
     display: none;
+    width: 147px;
+    height: 25px;
     position: absolute;
     top: 31px;
     left: 263px;
-    width: 147px;
-    height: 25px;
-    background-color: $red-color;
     transform: rotate(45deg);
+    background-color: $red-color;
   }
 
   &__badge-text {
@@ -71,21 +71,21 @@ html {
   }
 
   .green-color &__title {
+    width: 100px;
     margin-left: 140px;
     margin-right: 140px;
-    width: 100px;
   }
 
   .blue-color &__title {
+    width: 163px;
     margin-left: 108px;
     margin-right: 108px;
-    width: 163px;
   }
 
   .orange-color &__title {
+    width: 176px;
     margin-left: 102px;
     margin-right: 102px;
-    width: 176px;
   }
 
   &__title-small-text {
@@ -95,9 +95,9 @@ html {
   }
 
   &__price {
+    display: flex;
     height: 105px;
     margin-top: 33px;
-    display: flex;
   }
 
   .green-color &__price {
@@ -166,14 +166,14 @@ html {
   }
 
   &__order-btn {
+    width: 154px;
+    height: 40px;
     text-transform: uppercase;
     font-size: 14px;
     line-height: 17px;
-    width: 154px;
-    height: 40px;
     border: none;
-    margin: 39px 113px 40px 112px;
     border-radius: $border-radius;
+    margin: 39px 113px 40px 112px;
   }
 
   .green-color &__order-btn {
