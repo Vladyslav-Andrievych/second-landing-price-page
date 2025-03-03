@@ -12,6 +12,7 @@ html {
 .page {
   display: flex;
   width: 1440px;
+  min-height: 100vh;
   margin: auto;
   background-color: #141b1c;
 }
